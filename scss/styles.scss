@@ -88,6 +88,10 @@ nav {
 			@include media-breakpoint-down(sm) {
 				margin-right: 20px;
 			}
+
+			&:hover {
+				text-decoration: none;
+			}
 		}
 
 		@include media-breakpoint-down(sm) {
