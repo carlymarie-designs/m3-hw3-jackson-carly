@@ -11,10 +11,36 @@ $red: #ee252f;
 $black: #080801;
 
 // Fonts Details
+$font-family: 'Roboto', sans-serif;
 
 /*----------------------  Mixins  ------------------*/
-
+@mixin img-overlay {
+	position: relative;
+	&:before {
+		position: absolute;
+		content: '';
+		top: 0;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		background-color: fade-out(#3b3838, .33);
+	}
+}
 /*----------------------  Styles  ------------------*/
+
+body {
+	font-family: $font-family;
+	font-weight: 500;
+}
+
+button {
+	background-color: $yellow;
+	font-size: 18px;
+	text-transform: uppercase;
+	border-radius: 8px;
+	padding: 10px 25px;
+	border: 0 none;
+}
 
 nav {
 	background-color: $yellow;
@@ -50,5 +76,21 @@ nav {
 		@include media-breakpoint-down(sm) {
 			justify-content: center;
 		}
+	}
+}
+
+header {
+	height: 50vh;
+	background-color: $black;
+	display: flex;
+	align-items: center;
+	z-index: 5;
+
+	&.hero {
+		@include img-overlay;
+		background-image: url(./../img/banner-bg.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
 	}
 }

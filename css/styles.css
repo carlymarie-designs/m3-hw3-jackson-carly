@@ -9932,6 +9932,20 @@ h3 {
 /*----------------------  Vars  ---------------------*/
 /*----------------------  Mixins  ------------------*/
 /*----------------------  Styles  ------------------*/
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+button {
+  background-color: #f8df1f;
+  font-size: 18px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  padding: 10px 25px;
+  border: 0 none;
+}
+
 nav {
   background-color: #f8df1f;
   height: 100px;
@@ -9967,4 +9981,28 @@ nav ul li > a:hover {
   nav ul {
     justify-content: center;
   }
+}
+
+header {
+  height: 50vh;
+  background-color: #080801;
+  display: flex;
+  align-items: center;
+  z-index: 5;
+}
+header.hero {
+  position: relative;
+  background-image: url(./../img/banner-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+header.hero:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(59, 56, 56, 0.67);
 }
