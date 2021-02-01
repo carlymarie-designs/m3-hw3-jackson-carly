@@ -9935,6 +9935,17 @@ h3 {
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
+  color: #080801;
+}
+body p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #050500;
+}
+@media (max-width: 767.98px) {
+  body p {
+    text-align: center;
+  }
 }
 
 button {
@@ -9944,6 +9955,14 @@ button {
   border-radius: 8px;
   padding: 10px 25px;
   border: 0 none;
+  font-weight: 500;
+}
+@media (max-width: 767.98px) {
+  button {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+  }
 }
 
 nav {
@@ -10005,4 +10024,36 @@ header.hero:before {
   right: 0;
   left: 0;
   background-color: rgba(59, 56, 56, 0.67);
+}
+
+.info {
+  font-size: 16px;
+}
+.info h2 {
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.info h2 span {
+  color: #ee252f;
+}
+@media (max-width: 767.98px) {
+  .info h2 {
+    text-align: center;
+  }
+}
+
+.dine {
+  background-color: #f3f3f3;
+}
+.dine h2 {
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.dine h2 span {
+  color: #ee252f;
+}
+@media (max-width: 767.98px) {
+  .dine h2 {
+    text-align: center;
+  }
 }
