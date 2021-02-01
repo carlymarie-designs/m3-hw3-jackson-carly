@@ -10057,3 +10057,8 @@ header.hero:before {
     text-align: center;
   }
 }
+
+footer {
+  border-top: 10px #f8df1f solid;
+  background-color: #080801;
+}
