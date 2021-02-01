@@ -13,3 +13,42 @@ $black: #080801;
 // Fonts Details
 
 /*----------------------  Mixins  ------------------*/
+
+/*----------------------  Styles  ------------------*/
+
+nav {
+	background-color: $yellow;
+	height: 100px;
+	display: flex;
+	justify-content: start;
+	align-items: center;
+
+	ul {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		display: flex;
+
+		li > a {
+			font-size: 18px;
+			color: $black;
+			margin-right: 40px;
+
+			&:hover {
+				color: $red;
+			}
+
+			@include media-breakpoint-down(sm) {
+				font-size: 14px;
+			}
+
+			@include media-breakpoint-down(sm) {
+				margin-right: 20px;
+			}
+		}
+
+		@include media-breakpoint-down(sm) {
+			justify-content: center;
+		}
+	}
+}
