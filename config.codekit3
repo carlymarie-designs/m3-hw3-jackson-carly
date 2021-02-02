@@ -17,6 +17,16 @@
 		"oAP": "/.gitignore",
 		"oF": 0
 		},
+	"/css/styles.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/styles-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/img/banner-bg.png": {
 		"ft": 32768,
 		"iS": 335236,
@@ -36,8 +46,8 @@
 		"oA": 0,
 		"oAP": "/img/bob-headshot.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
@@ -49,8 +59,8 @@
 		"oA": 0,
 		"oAP": "/img/bobs-burger.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
@@ -62,8 +72,8 @@
 		"oA": 0,
 		"oAP": "/img/logo.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
@@ -83,8 +93,8 @@
 		"oA": 0,
 		"oAP": "/mockup-columns.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
@@ -98,7 +108,7 @@
 		"oAP": "/mockup.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -1261,6 +1271,14 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"/README.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/README.html",
+		"oF": 0
+		},
 	"/README.md": {
 		"cB": 0,
 		"cS": 0,
@@ -1301,7 +1319,7 @@
 		"oAP": "/style-guide.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
